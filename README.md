@@ -23,46 +23,56 @@ docker
 
 * to begin we download terraform and execute in terminal the command
 
-![alt text](image.png)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image.png?raw=true)
 
 
 * terraform will help to us to configurate the infraestructure of the cloud, in this case we select AWS to make the connection.
 
 * in AWS we have to create an instance that we can host our containers, so we configurate the tools we need such as security group, vpc, IAM role, EC2 .....
 
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-2.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-3.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-4.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-5.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-6.png?raw=true)
+
 
 * When we done the configuration of aws, we create a ec2.tf file to configurate the connection and the set up for the aws cloud.
 
-![alt text](image-1.png)
-
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-1.png?raw=true)
 
 
 * we use the next command to apply the manifest to aws
 
-![alt text](image-9.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-9.png?raw=true)
+
 
 * with the command plan we will know what would be modify in the infraestructure
 
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-10.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-11.png?raw=true)
+
 
 * When we deployed the instances we can validate with putty the connection to the linux instance
 
-![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-7.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-8.png?raw=true)
+
 
 * Next we need to install docker and with the user we begin to create a container in docker
 
-![alt text](image-12.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-12.png?raw=true)
 
 * with the command docker images we validate the images
 
-![alt text](image-13.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-13.png?raw=true)
 
 * the next step is run the docker with the command
 
@@ -79,8 +89,9 @@ sudo docker push cradaca39/globant-test:1.0.0
 ```
 * Finally we have our project api in container
 
-![alt text](image-14.png)
-![alt text](image-15.png)
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-14.png?raw=true)
+
+![alt text](https://github.com/cradaca39/globant_bonus/blob/main/images/image-15.png?raw=true)
 
 * We find our docker file in the globant challenge project
 
